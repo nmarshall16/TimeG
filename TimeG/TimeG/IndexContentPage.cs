@@ -8,6 +8,6 @@ namespace TimeG
 {
     class IndexContentPage
     {
-
+        // hola
     }
 }
