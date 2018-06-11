@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeG.Registrar">
+  <ContentPage.Content>
+    <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
+    x:Name="RegistrarPage">
+      <!-- can change orientation to make responsive -->
+      <ScrollView>
+        <StackLayout Spacing="50" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+          <StackLayout Orientation="Horizontal">
+            <Image Source="Atras.png"></Image>
+          </StackLayout>
+          <StackLayout Orientation="Horizontal">
+            <Label Text="Registro" TextColor="Black" FontSize="60" XAlign="Center" WidthRequest="1000"
+                HorizontalOptions="Start" />
+          </StackLayout>
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+            <Entry Placeholder="Nombre"
+                 HorizontalOptions="FillAndExpand" />
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                  HorizontalOptions="Start" />
+            <Entry Placeholder="E-Mail"
+                 HorizontalOptions="FillAndExpand"/>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                  HorizontalOptions="Start" />
+            <Entry Placeholder="Contraseña" IsPassword="true"
+                 HorizontalOptions="FillAndExpand"/>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                  HorizontalOptions="Start" />
+            <Button Text="Registrarse" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand" />
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+        </StackLayout>
+      </ScrollView>
+      <Image  Source="deer.jpg" />
+    </StackLayout>
+  </ContentPage.Content>
+  
+</ContentPage>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeG.Login">
+  <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
+        x:Name="LoginPage"> <!-- can change orientation to make responsive -->
+            <ScrollView>
+                <StackLayout Spacing="50" HorizontalOptions="FillAndExpand"
+                    WidthRequest="1000">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Login" TextColor="Black" FontSize="60" XAlign="Center" WidthRequest="1000"
+                            HorizontalOptions="Start" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                        <Entry Placeholder="E-Mail" 
+                             HorizontalOptions="FillAndExpand" />
+                        <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                      <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                        <Entry Placeholder="Contraseña" IsPassword="true"
+                             HorizontalOptions="FillAndExpand"/>
+                        <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                      <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                      <Button Text="Ingresar" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand" />
+                        <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                      <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                      <Button Text="Ingresar con Google" TextColor="White" BackgroundColor="#ED1919" HorizontalOptions="FillAndExpand" />
+                        <Label Text="" WidthRequest="50"
+                            HorizontalOptions="Start" />
+                    </StackLayout>
+                 <StackLayout Orientation="Horizontal">
+                      <Label Text="" WidthRequest="100"
+                            HorizontalOptions="Start" />
+                      <Button x:Name="BotonRegistrar" Text="Registrarme"  TextColor="#1094bc" BackgroundColor="White" BorderColor="Transparent" HorizontalOptions="FillAndExpand" />
+                        <Label Text="" WidthRequest="100"
+                            HorizontalOptions="Start" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            <Image  Source="deer.jpg" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
