@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeG.verSegurencia">
+
+
+  <ContentPage.Content>
+  <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
+  x:Name="LoginPage">
+    <!-- can change orientation to make responsive -->
+    <ScrollView>
+      <StackLayout Spacing="50" HorizontalOptions="FillAndExpand"
+          WidthRequest="1000">
+        <StackLayout Orientation="Horizontal">
+          <Image Source="Atras.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+          <Label Text="Sugerencia" WidthRequest="800" TextColor="Black" FontSize="60" XAlign="Center"
+             HorizontalOptions="Start" />
+          <Image Source="Menu.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+
+          <Image Source="icon.png"  HorizontalOptions="FillAndExpand"  WidthRequest = "60" HeightRequest = "60"></Image>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+          <Label Text="Sugerencia" XAlign="Center" FontSize="25" HorizontalOptions="FillAndExpand"></Label>
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+          <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at sapien tellus. Duis non nulla interdum, interdum ipsum et, fermentum augue. Duis et urna massa. Morbi lobortis viverra nunc. Curabitur pretium dolor in quam fermentum, scelerisque interdum odio consequat. Phasellus ut commodo nisi. Vivamus neque mi, luctus ac pellentesque id, bibendum ac nisl." FontSize="15" HorizontalOptions="FillAndExpand"></Label>
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+          <Label Text="" FontSize="25" HorizontalOptions="FillAndExpand"></Label>
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+          <Label Text="" FontSize="25" HorizontalOptions="FillAndExpand"></Label>
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+
+
+        <StackLayout Orientation="Horizontal">
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+          <Image Source="star.png" HorizontalOptions="FillAndExpand" WidthRequest = "50" HeightRequest = "50"></Image>
+          <Label Text="" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+      </StackLayout>
+
+    </ScrollView>
+  </StackLayout>
+  </ContentPage.Content>
+
+
+
+</ContentPage>

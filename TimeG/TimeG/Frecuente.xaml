@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TimeG.Actividades">
+             x:Class="TimeG.Frecuente">
+
   <ContentPage.Content>
     <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
     x:Name="LoginPage">
@@ -11,27 +12,27 @@
             WidthRequest="1000">
           <StackLayout Orientation="Horizontal">
             <Image Source="Plus.png"  WidthRequest = "35" HeightRequest = "35"></Image>
-            <Label Text="Actividades" WidthRequest="800" TextColor="Black" FontSize="60" XAlign="Center"
+            <Label Text="Frecuentes" WidthRequest="800" TextColor="Black" FontSize="60" XAlign="Center"
                HorizontalOptions="Start" />
             <Image Source="Menu.png"  WidthRequest = "35" HeightRequest = "35"></Image>
           </StackLayout>
-          
+
           <StackLayout Orientation="Horizontal">
             <Button Text="Todas" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"/>
             <Button Text="Obligatorias" HorizontalOptions="FillAndExpand"/>
             <Button Text="Entretencion" HorizontalOptions="FillAndExpand"/>
           </StackLayout>
-          
+
           <StackLayout Orientation="Horizontal">
             <Label Text="" WidthRequest="10"
-                 HorizontalOptions="Start" />
+                  HorizontalOptions="Start" />
             <Image Source="Futbol.png"  WidthRequest = "30" HeightRequest = "30" />
             <Label Text="Actividad 1" FontSize="30" XAlign="Start" />
             <Label Text="" WidthRequest="100"
                  HorizontalOptions="Start" />
-            <Switch HorizontalOptions="FillAndExpand"></Switch>
+            <Image Source="Basurero.png" HorizontalOptions="FillAndExpand"  WidthRequest = "30" HeightRequest = "30" />
           </StackLayout>
-          
+
           <StackLayout Orientation="Horizontal">
             <Label Text="" WidthRequest="10"
                  HorizontalOptions="Start" />
@@ -39,9 +40,9 @@
             <Label Text="Actividad 2" FontSize="30" XAlign="Start" />
             <Label Text="" WidthRequest="100"
                  HorizontalOptions="Start" />
-            <Switch HorizontalOptions="FillAndExpand"></Switch>
+            <Image Source="Basurero.png" HorizontalOptions="FillAndExpand"  WidthRequest = "30" HeightRequest = "30" />
           </StackLayout>
-          
+
           <StackLayout Orientation="Horizontal">
             <Label Text="" WidthRequest="10"
                  HorizontalOptions="Start" />
@@ -49,7 +50,7 @@
             <Label Text="Actividad 3" FontSize="30" XAlign="Start" />
             <Label Text="" WidthRequest="100"
                  HorizontalOptions="Start" />
-            <Switch HorizontalOptions="FillAndExpand"></Switch>
+            <Image Source="Basurero.png" HorizontalOptions="FillAndExpand"  WidthRequest = "30" HeightRequest = "30" />
           </StackLayout>
 
           <StackLayout Orientation="Horizontal">
@@ -59,29 +60,30 @@
             <Label Text="Actividad 4" FontSize="30" XAlign="Start" />
             <Label Text="" WidthRequest="100"
                  HorizontalOptions="Start" />
-            <Switch HorizontalOptions="FillAndExpand"/>
+            <Image Source="Basurero.png" HorizontalOptions="FillAndExpand"  WidthRequest = "30" HeightRequest = "30" />
           </StackLayout>
-          
-          <StackLayout Orientation="Horizontal">
+
+          <StackLayout Orientation="Horizontal" >
             <Label Text="" WidthRequest="50"
                   HorizontalOptions="Start" />
-            <ProgressBar Progress="0.25" HorizontalOptions="FillAndExpand"/>
+            <Label Text=""></Label>
             <Label Text="" WidthRequest="50"
                 HorizontalOptions="Start" />
           </StackLayout>
           
-          <StackLayout Orientation="Horizontal">
+          <StackLayout Orientation="Horizontal" >
             <Label Text="" WidthRequest="50"
                   HorizontalOptions="Start" />
-            <Button Text="Actividad aleatoria" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand" />
+            <Button Text="Agregar" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand" />
             <Label Text="" WidthRequest="50"
                 HorizontalOptions="Start" />
           </StackLayout>
-          
-          
+
+
         </StackLayout>
-        
+
       </ScrollView>
     </StackLayout>
   </ContentPage.Content>
+  
 </ContentPage>

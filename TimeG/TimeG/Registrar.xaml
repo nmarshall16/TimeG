@@ -10,11 +10,10 @@
         <StackLayout Spacing="50" HorizontalOptions="FillAndExpand"
             WidthRequest="1000">
           <StackLayout Orientation="Horizontal">
-            <Image Source="Atras.png"></Image>
+            <Image Source="Atras.png" WidthRequest = "35" HeightRequest = "35"></Image>
           </StackLayout>
           <StackLayout Orientation="Horizontal">
-            <Label Text="Registro" TextColor="Black" FontSize="60" XAlign="Center" WidthRequest="1000"
-                HorizontalOptions="Start" />
+            <Image Source="DayToDay.png" HorizontalOptions="FillAndExpand"  WidthRequest = "100" HeightRequest = "100"></Image>
           </StackLayout>
           <StackLayout Orientation="Horizontal">
             <Label Text="" WidthRequest="50"
@@ -40,6 +39,17 @@
             <Label Text="" WidthRequest="50"
                 HorizontalOptions="Start" />
           </StackLayout>
+
+          <StackLayout Orientation="Horizontal" >
+            <Label Text="" WidthRequest="50"
+                  HorizontalOptions="Start" />
+            <Label Text=""></Label>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+
+
+          
           <StackLayout Orientation="Horizontal">
             <Label Text="" WidthRequest="50"
                   HorizontalOptions="Start" />

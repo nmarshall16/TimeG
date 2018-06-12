@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeG.AgregarActividad">
+
+
+  <ContentPage.Content>
+    <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
+    x:Name="LoginPage">
+      <!-- can change orientation to make responsive -->
+      <ScrollView>
+        <StackLayout Spacing="50" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+          <StackLayout Orientation="Horizontal">
+            <Image Source="Atras.png" WidthRequest = "35" HeightRequest = "35" ></Image>
+            <Label Text="Actividad" WidthRequest="800" TextColor="Black" FontSize="60" XAlign="Center"
+               HorizontalOptions="Start" />
+            <Image Source="Menu.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+          </StackLayout>
+
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                 HorizontalOptions="Start" />
+            <Entry Placeholder="Nombre Actividad"
+                 HorizontalOptions="FillAndExpand" />
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+             HorizontalOptions="Start" />
+            <Button Text="Obligatoria" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"></Button>
+            <Button Text="Entretencion" HorizontalOptions="FillAndExpand"></Button>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+             HorizontalOptions="Start" />
+            <Image Source="Plus.png"  WidthRequest = "30" HeightRequest = "30" />
+            <Label Text="" WidthRequest="30"
+             HorizontalOptions="Start" />
+            <Label Text="Agregar Fecha y Hora" FontSize="20"></Label>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+
+
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                 HorizontalOptions="Start" />
+            <DatePicker  HorizontalOptions="FillAndExpand"></DatePicker>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+
+
+
+          <StackLayout Orientation="Horizontal" Spacing="1500">
+            <Label></Label>
+            <Label></Label>
+          </StackLayout>
+          
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="50"
+                 HorizontalOptions="Start" />
+            <Switch HorizontalOptions="FillAndExpand" WidthRequest="50"></Switch>
+            <Label Text="Marcar como frecuente" HorizontalOptions="FillAndExpand"></Label>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+          
+
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" HorizontalOptions="FillAndExpand" />
+            <Button Text="Guardar" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand" />
+            <Button Text="Eliminar" TextColor="White" BackgroundColor="#ED1919" HorizontalOptions="FillAndExpand" />
+            <Label Text="" HorizontalOptions="FillAndExpand" />
+          </StackLayout>
+
+
+        </StackLayout>
+
+      </ScrollView>
+    </StackLayout>
+  </ContentPage.Content>
+
+</ContentPage>

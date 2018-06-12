@@ -9,8 +9,7 @@
                 <StackLayout Spacing="50" HorizontalOptions="FillAndExpand"
                     WidthRequest="1000">
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Login" TextColor="Black" FontSize="60" XAlign="Center" WidthRequest="1000"
-                            HorizontalOptions="Start" />
+                      <Image Source="DayToDay.png" HorizontalOptions="FillAndExpand"  WidthRequest = "100" HeightRequest = "100"></Image>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="" WidthRequest="50"

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeG.Sugerencia">
+
+
+  <ContentPage.Content>
+    <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
+    x:Name="LoginPage">
+      <!-- can change orientation to make responsive -->
+      <ScrollView>
+        <StackLayout Spacing="30" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+          <StackLayout Orientation="Horizontal">
+            <Image Source="Plus.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+            <Label Text="Sugerencias" WidthRequest="800" TextColor="Black" FontSize="60" XAlign="Center"
+               HorizontalOptions="Start" />
+            <Image Source="Menu.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+          </StackLayout>
+
+          <StackLayout Orientation="Horizontal">
+            <Button Text="Todas" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"/>
+            <Button Text="Motivacion" HorizontalOptions="FillAndExpand"/>
+            <Button Text="Concentración" HorizontalOptions="FillAndExpand"/>
+          </StackLayout>
+
+          <StackLayout Spacing="-10" HorizontalOptions="FillAndExpand"
+           WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="icon.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Sugerencia 1" FontSize="30" XAlign="Start" />
+              <Label Text=""
+                   HorizontalOptions="FillAndExpand" />
+              <Label Text=""
+                   HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Image Source="star.png" WidthRequest = "80" HeightRequest = "80"></Image>
+             
+              <Label Text="" HorizontalOptions="Start" WidthRequest="95"></Label>
+            </StackLayout>
+          </StackLayout>
+
+          <StackLayout Spacing="-10" HorizontalOptions="FillAndExpand"
+ WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="icon.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Sugerencia 2" FontSize="30" XAlign="Start" />
+              <Label Text=""
+                   HorizontalOptions="FillAndExpand" />
+              <Label Text=""
+                   HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Image Source="star.png" WidthRequest = "80" HeightRequest = "80"></Image>
+
+              <Label Text="" HorizontalOptions="Start" WidthRequest="95"></Label>
+            </StackLayout>
+          </StackLayout>
+
+          <StackLayout Spacing="-10" HorizontalOptions="FillAndExpand"
+ WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="icon.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Sugerencia 3" FontSize="30" XAlign="Start" />
+              <Label Text=""
+                   HorizontalOptions="FillAndExpand" />
+              <Label Text=""
+                   HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Image Source="star.png" WidthRequest = "80" HeightRequest = "80"></Image>
+
+              <Label Text="" HorizontalOptions="Start" WidthRequest="95"></Label>
+            </StackLayout>
+          </StackLayout>
+
+
+          <StackLayout Orientation="Horizontal">
+            <Label Text="" WidthRequest="10"
+       HorizontalOptions="Start" />
+            <Button Text="Aleatorio" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="#1094bc"></Button>
+            <Image Source="Add.png" WidthRequest = "30" HeightRequest = "30" HorizontalOptions="FillAndExpand"></Image>
+          </StackLayout>
+          
+        </StackLayout>
+
+
+
+
+
+    </ScrollView>
+    </StackLayout>
+  </ContentPage.Content>
+  
+</ContentPage>

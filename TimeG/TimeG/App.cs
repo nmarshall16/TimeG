@@ -13,7 +13,7 @@ namespace TimeG
         {
             // The root page of your application
 
-            MainPage = new Actividades();
+            MainPage = new configuracion();
         }
 
         protected override void OnStart()

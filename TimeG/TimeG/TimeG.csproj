@@ -38,7 +38,25 @@
     <Compile Include="Actividades.xaml.cs">
       <DependentUpon>Actividades.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddSugerencia.xaml.cs">
+      <DependentUpon>AddSugerencia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarActividad.xaml.cs">
+      <DependentUpon>AgregarActividad.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.cs" />
+    <Compile Include="configuracion.xaml.cs">
+      <DependentUpon>configuracion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Contactos.xaml.cs">
+      <DependentUpon>Contactos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Evento.xaml.cs">
+      <DependentUpon>Evento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frecuente.xaml.cs">
+      <DependentUpon>Frecuente.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IndexContentPage.cs" />
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
@@ -46,6 +64,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrar.xaml.cs">
       <DependentUpon>Registrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sugerencia.xaml.cs">
+      <DependentUpon>Sugerencia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VerEvento.xaml.cs">
+      <DependentUpon>VerEvento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="verSegurencia.xaml.cs">
+      <DependentUpon>verSegurencia.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +107,60 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Actividades.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AgregarActividad.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Frecuente.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Evento.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="VerEvento.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Contactos.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sugerencia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddSugerencia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="verSegurencia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="configuracion.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

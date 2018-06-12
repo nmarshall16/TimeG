@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeG.Evento">
+
+
+  <ContentPage.Content>
+    <StackLayout Spacing="10" Padding="5" Orientation="Vertical"
+    x:Name="LoginPage">
+      <!-- can change orientation to make responsive -->
+      <ScrollView>
+        <StackLayout Spacing="30" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+          <StackLayout Orientation="Horizontal">
+            <Image Source="Plus.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+            <Label Text="Eventos" WidthRequest="800" TextColor="Black" FontSize="60" XAlign="Center"
+               HorizontalOptions="Start" />
+            <Image Source="Menu.png"  WidthRequest = "35" HeightRequest = "35"></Image>
+          </StackLayout>
+
+          <StackLayout Orientation="Horizontal">
+            <Button Text="Pendientes" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"/>
+            <Button Text="Terminados"  HorizontalOptions="FillAndExpand"/>
+          </StackLayout>
+          
+          <StackLayout Spacing="0" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="Reloj.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Evento 1" FontSize="30" XAlign="Start" />
+              <Label Text="" WidthRequest="100"
+                   HorizontalOptions="Start" />
+              <Image Source="User.png" WidthRequest = "30" HeightRequest = "30"></Image>
+              <Button Text="Ver evento" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Label Text="Martes 3 de Junio" HorizontalOptions="Start" FontSize="15"></Label>
+              <Label Text="" HorizontalOptions="Start" WidthRequest="95"></Label>
+              <Label Text="Ver" HorizontalOptions="Start" FontSize="15"></Label>
+            </StackLayout>
+          </StackLayout>
+
+          <StackLayout Spacing="0" HorizontalOptions="FillAndExpand"
+             WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="Reloj.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Evento 2" FontSize="30" XAlign="Start" />
+              <Label Text="" WidthRequest="100"
+                   HorizontalOptions="Start" />
+              <Image Source="User.png" WidthRequest = "30" HeightRequest = "30"></Image>
+              <Button Text="Ver evento" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Label Text="Miercoles 8 de Julio" HorizontalOptions="Start" FontSize="15"></Label>
+              <Label Text="" HorizontalOptions="Start" WidthRequest="85"></Label>
+              <Label Text="Ver" HorizontalOptions="Start" FontSize="15"></Label>
+            </StackLayout>
+          </StackLayout>
+
+          <StackLayout Spacing="0" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="Reloj.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Evento 3" FontSize="30" XAlign="Start" />
+              <Label Text="" WidthRequest="100"
+                   HorizontalOptions="Start" />
+              <Image Source="User.png" WidthRequest = "30" HeightRequest = "30"></Image>
+              <Button Text="Ver evento" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Label Text="Lunes 23 de Mayo" HorizontalOptions="Start" FontSize="15"></Label>
+              <Label Text="" HorizontalOptions="Start" WidthRequest="95"></Label>
+              <Label Text="Ver" HorizontalOptions="Start" FontSize="15"></Label>
+            </StackLayout>
+          </StackLayout>
+
+                    <StackLayout Spacing="0" HorizontalOptions="FillAndExpand"
+            WidthRequest="1000">
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" WidthRequest="10"
+                    HorizontalOptions="Start" />
+              <Image Source="Reloj.png"  WidthRequest = "30" HeightRequest = "30" />
+              <Label Text="Evento 4" FontSize="30" XAlign="Start" />
+              <Label Text="" WidthRequest="100"
+                   HorizontalOptions="Start" />
+              <Image Source="User.png" WidthRequest = "30" HeightRequest = "30"></Image>
+              <Button Text="Ver evento" TextColor="White" BackgroundColor="#1094bc" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+              <Label Text="" HorizontalOptions="Start" WidthRequest="50"></Label>
+              <Label Text="Jueves 18 de Agosto" HorizontalOptions="Start" FontSize="15"></Label>
+              <Label Text="" HorizontalOptions="Start" WidthRequest="80"></Label>
+              <Label Text="Ver" HorizontalOptions="Start" FontSize="15"></Label>
+            </StackLayout>
+          </StackLayout>
+          
+          <StackLayout Orientation="Horizontal" >
+            <Label Text="" WidthRequest="50"
+                  HorizontalOptions="Start" />
+            <Label Text=""></Label>
+            <Label Text="" WidthRequest="50"
+                HorizontalOptions="Start" />
+          </StackLayout>
+
+          <StackLayout  Orientation="Horizontal" >
+            <Label Text="" HorizontalOptions="FillAndExpand"  />
+            <Label Text="" HorizontalOptions="FillAndExpand"  />
+            <Label Text="" HorizontalOptions="FillAndExpand"  />
+            <Image  Source="Add.png" WidthRequest="50" HorizontalOptions="FillAndExpand"  HeightRequest="50"></Image>
+          </StackLayout>
+
+
+        </StackLayout>
+
+      </ScrollView>
+    </StackLayout>
+  </ContentPage.Content>
+
+
+</ContentPage>
